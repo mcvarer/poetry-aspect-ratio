@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aspect_ratio"
-version = "0.3.0"
+version = "0.4.0"
 description = "Finds the aspect ratio of image"
 authors = ["M.C.V <murat@visiosoft.com.tr>"]
 license = "MIT"
@@ -11,6 +11,7 @@ repository = "https://github.com/mcvarer/poetry-aspect-ratio"
 [tool.poetry.dependencies]
 python = "^3.9"
 numpy = "^1.22.0"
+setuptools = "^60.3.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
